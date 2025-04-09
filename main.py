@@ -1,14 +1,14 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
     total = 0
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    numbers = [0] * 5
+    
+    for i in range(len(numbers)):
+        numbers[i] = int(input('Enter a value: '))
+    
+    for num in numbers:
+        total += num
+        
+    print(total)
     return total
 
 
